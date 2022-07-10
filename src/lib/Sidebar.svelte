@@ -11,11 +11,7 @@
 <aside class="sidebar {isMobileMenu}" data-sidebar>
   <div class="sidebar-info">
     <figure class="avatar-box">
-      <img
-        src="./src/assets/images/my-avatar2.png"
-        alt={profile.name}
-        width="80"
-      />
+      <img src="/images/my-avatar2.png" alt={profile.name} width="80" />
     </figure>
 
     <div class="info-content">
@@ -71,7 +67,7 @@
         </div>
       </li>
 
-      <li class="contact-item">
+      <!--<li class="contact-item">
         <div class="icon-box">
           <ion-icon name="calendar-outline" />
         </div>
@@ -81,7 +77,7 @@
 
           <time datetime="2000-09-29">Sep 29, 2000</time>
         </div>
-      </li>
+      </li>!-->
 
       <li class="contact-item">
         <div class="icon-box">
@@ -100,14 +96,14 @@
 
     <ul class="social-list">
       <li class="social-item">
-        <a href={profile.github} class="social-link">
-          <ion-icon name="logo-github" />
+        <a href={profile.behance} class="social-link">
+          <ion-icon name="logo-behance" />
         </a>
       </li>
 
       <li class="social-item">
-        <a href={profile.twitter} class="social-link">
-          <ion-icon name="logo-twitter" />
+        <a href={profile.instagram} class="social-link">
+          <ion-icon name="logo-instagram" />
         </a>
       </li>
 

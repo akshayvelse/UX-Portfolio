@@ -29,6 +29,14 @@
     if (message) messageval = true;
     else messageval = false;
   }
+
+  function onSubmit(e) {
+    const data: any = {};
+    data["subject"] = subject;
+    data["message"] = message;
+    data["email"] = email;
+    console.log(data);
+  }
 </script>
 
 <header>
@@ -39,7 +47,7 @@
   <figure>
     <iframe
       title="google map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7858.362621228839!2d76.28024049999999!3d10.00187745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d642b68be2b%3A0x41d7dbaef6cc2b87!2sPachalam%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1656769025191!5m2!1sen!2sin"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502964.51010808954!2d76.02072330106692!3d9.982931412200601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1657221279902!5m2!1sen!2sin"
       width="400"
       height="300"
       loading="lazy"
@@ -48,9 +56,9 @@
 </section>
 
 <section class="contact-form">
-  <h3 class="h3 form-title">Contact Form</h3>
+  <h3 class="h3 form-title">Lets talk!</h3>
 
-  <form action="#" class="form" data-form>
+  <form class="form" data-form>
     <div class="input-wrapper">
       <input
         value={subject}
@@ -86,7 +94,12 @@
     />
 
     {#if emailval && subjectval && messageval}
-      <button class="form-btn" type="submit" data-form-btn>
+      <button
+        class="form-btn"
+        on:click|preventDefault={onSubmit}
+        type="submit"
+        data-form-btn
+      >
         <ion-icon name="paper-plane" />
         <span>Send Message</span>
       </button>

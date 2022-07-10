@@ -11,16 +11,22 @@
 
 <section class="about-text">
   <p>
-    I'm Junior Frontend Developer from Kerala, India, pursuing a bachelor's
-    degree in Computer Science and Engineering. I enjoy turning complex problems
-    into simple, beautiful and intuitive designs.
+    I'm a Junior UI UX Designer from Kerala, India, pursuing my career as a User Interface and Interaction Designer. 
+    I enjoy turning complex problems into simple, beautiful, and intuitive designs.
   </p>
 
   <p>
-    My job is to build your website so that it is functional and user-friendly
-    but at the same time attractive. Moreover, I add personal touch to your
-    product and make sure that is eye-catching and easy to use. My aim is to
-    bring across your message and identity in the most creative way.
+   
+At first, I was not sure whether to call myself a UI designer or a UX designer. 
+But getting to know about the terms I knew that I was equally fascinated by user interactions and the product design. 
+So I decided to call myself a UI and UX designer. The very next thing I was trying to find out was the concept of standing out.
+How to make my designs stand out? How to make my designs special from others. 
+But my experience made me realize that the one and only thing that can make my designs special is me. 
+I am the only person who can make my designs stand out, by adding my individual essence to my work. Up to this point, 
+I firmly believe in this principle. 
+All of my designs contain a specific essence by which no other designs will ever replicate, the essence of me.
+
+
   </p>
 </section>
 
